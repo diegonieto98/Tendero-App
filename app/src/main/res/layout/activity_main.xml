@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD4A6"
+    android:padding="15sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="REGISTRAR TUTORÍA"
+        android:textColor="#8F141B"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_nombrePersona"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <EditText
+        android:id="@+id/txt_nombrePersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8F141B"
+        android:hint="Nombre Completo"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColorHint="#D5000000"
+        app:layout_constraintBottom_toTopOf="@+id/txt_telefonoPersona"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></EditText>
+
+    <EditText
+        android:id="@+id/txt_telefonoPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8F141B"
+        android:hint="Telefono de Contacto"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColorHint="#D5000000"
+        app:layout_constraintBottom_toTopOf="@+id/txt_diasPersona"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombrePersona"></EditText>
+
+    <EditText
+        android:id="@+id/txt_diasPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8F141B"
+        android:hint="Dias disponibles"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColorHint="#D5000000"
+        app:layout_constraintBottom_toTopOf="@+id/txt_AsigntauraPersona"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_telefonoPersona"></EditText>
+
+    <EditText
+        android:id="@+id/txt_AsigntauraPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8F141B"
+        android:hint="Asignaturas"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColorHint="#D5000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_diasPersona"
+        app:layout_constraintVertical_bias="0.635"></EditText>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

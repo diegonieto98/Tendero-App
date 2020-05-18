@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "624826523837",
+    "firebase_url": "https://tutorias-uscof.firebaseio.com",
+    "project_id": "tutorias-uscof",
+    "storage_bucket": "tutorias-uscof.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624826523837:android:1047bdd7d6c230bb9e17d4",
+        "android_client_info": {
+          "package_name": "com.example.tutoria_usco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624826523837-6rcrosha6e0e6h6uga61t8r9hi85pklf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tutoria_usco",
+            "certificate_hash": "ae0f7b298db80eb4c7f94d573bf67b802f02b9ae"
+          }
+        },
+        {
+          "client_id": "624826523837-oc7bv313drbk70gqamo4f71ov0pvikl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHI1m9Y8v2lxpZ0ZJwxUWtWKcFOaQynDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624826523837-oc7bv313drbk70gqamo4f71ov0pvikl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD4A6"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".horario">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="LISTA DE TIENDAS DISPONIBLES CERCA DE SU CASA"
+        android:textColor="#8F141B"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/lv_datosPersonas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_diasPersona"></TextView>
+
+    <ListView
+        android:id="@+id/lv_datosPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:background="#8F141B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"></ListView>
+
+
+</LinearLayout>
